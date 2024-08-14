@@ -9,7 +9,7 @@ const HandleMsg = require('./HandleMsg')
 const StickerMetadata = { author: 'made with luv', pack: '@thoriqazzikraa', keepScale: true }
 const errorpicture = 'https://i.ibb.co/fxY3Hbp/Whats-App-Image-2021-11-24-at-15-39-01.jpg'
 const uaOverride = process.env.UserAgent
-const botnum = '6289520360716@c.us'
+const botnum = '083829637635@c.us'
 
 const sleep = async (ms) => {
 	return new Promise(resolve => setTimeout(resolve, ms))
