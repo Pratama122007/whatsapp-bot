@@ -1,1 +1,13 @@
-custom: ['https://trakteer.id/thoriqazzikra','https://saweria.co/thoriqazzikra', 'https://www.paypal.com/paypalme/thoriqazzikra', 'https://instagram.com/nechlophomeria']
+const customLinks = [
+    'Pembayaran menggunakan QR untuk Dana', // Informasi pembayaran menggunakan QR untuk Dana
+    'Pembayaran menggunakan QR untuk Gopay', // Informasi pembayaran menggunakan QR untuk Gopay
+    'Pembayaran menggunakan QR untuk Shopee', // Informasi pembayaran menggunakan QR untuk Shopee
+    'Pembayaran menggunakan QR untuk PayPal', // Informasi pembayaran menggunakan QR untuk PayPal
+    'Pembayaran menggunakan QR untuk OVO', // Informasi pembayaran menggunakan QR untuk OVO
+    'Pembayaran menggunakan QR untuk LinkAja' // Informasi pembayaran menggunakan QR untuk LinkAja
+];
+
+// Contoh penggunaan customLinks
+customLinks.forEach(link => {
+    console.log(link);
+});
